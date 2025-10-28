@@ -10,12 +10,12 @@
   <div class="quiz-container">
     <h2 id="question">Question text</h2>
     <div class="options">
-      <button class="option">Option 1</button>
-      <button class="option">Option 2</button>
-      <button class="option">Option 3</button>
-      <button class="option">Option 4</button>
+      <button class="option" onclick="selectAnswer(0)">Option 1</button>
+      <button class="option" onclick="selectAnswer(1)">Option 2</button>
+      <button class="option" onclick="selectAnswer(2)">Option 3</button>
+      <button class="option" onclick="selectAnswer(3)">Option 4</button>
     </div>
-    <button id="next-button">Next</button>
+    <button id="next-button" onclick="nextQuestion()">Next</button>
   </div>
   <script src="js/script.js"></script>
 </body>
